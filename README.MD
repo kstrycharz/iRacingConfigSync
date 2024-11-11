@@ -17,14 +17,16 @@ This Python script allows iRacing users to manage and apply custom wheel control
 ## Setup Instructions
 
 ### Wheel Configuration Setup
+1. **Set variables in script**:
+   - Set the iRacingDocuments variable to your iRacing Documents folder
 
-1. **Create the `wheelConfigs` Directory**:
+2. **Create the `wheelConfigs` Directory**:
    - Inside your iRacing documents directory (`Documents\iRacing`), create a folder named `wheelConfigs`.
 
-2. **Generate Configuration Files in iRacing**:
+3. **Generate Configuration Files in iRacing**:
    - For each profile you want, generate the configuration files in iRacing by enabling the **Use Custom Controls for this Car** option for a specific vehicle.
 
-3. **Organize Profile Folders**:
+4. **Organize Profile Folders**:
    - In the `wheelConfigs` directory, create a subfolder for each profile (e.g., `Profile1`, `Profile2`, etc.).
    - Manually copy the `controls.cfg` and `joyCalib.yaml` files from the vehicle’s setup folder in `Documents\iRacing\setups\[car name]` into the appropriate profile folder in `wheelConfigs`.
    - Each profile folder in `wheelConfigs` must contain a unique pair of `controls.cfg` and `joyCalib.yaml` files to be used by this script.
